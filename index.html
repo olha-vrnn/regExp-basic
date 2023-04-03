@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/thinline.css">
+    <title>HW 13</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="form-page">
+            <form name="signup-form">
+                <h1>Please sign up</h1>
+                <div class="input-block">
+                    <input type="text" id="firstName" class="input-element">
+                    <label for="firstName" class="input-label" id="firstName-label">First name</label>
+                    <i class="fa-solid" id="first-name-box"></i>
+                    <div><span id="first-name-alert" class="alert-text"></span></div>
+                </div>
+                <div class="input-block">
+                    <input type="text" id="lastName" class="input-element">
+                    <label for="lastName" class="input-label" id="lastName-label">Last Name</label>
+                    <i class="fa-solid" id="last-name-box"></i>
+                    <div><span id="last-name-alert" class="alert-text"></span></div>
+                </div>
+                <div class="input-block">
+                    <input type="email" id="email" class="input-element">
+                    <label for="email" class="input-label" id="email-label">Email address</label>
+                    <i class="fa-solid" id="email-box"></i>
+                    <div><span id="email-alert" class="alert-text"></span></div>
+
+                </div>
+                <div class="input-block">
+                    <input type="password" id="password" class="input-element">
+                    <label for="password" class="input-label" id="password-label">Password</label>
+                    <i class="fa-solid" id="password-box"></i>
+                    <div><span id="password-alert" class="alert-text"></span></div>
+
+                </div>
+                <div class="checkbox-block">
+                    <input type="checkbox" id="agree-checkbox">
+                    <label for="agree-checkbox">I agree with Privacy Policy.</label>
+                </div>
+                <div>
+                    <input type="button" value="Sign Up" id="signup-btn" class="signup-btn" disabled>
+                </div>
+            </form>
+        </div>
+        <div class="provide-valid">
+        </div>
+    </div>
+
+    <div class="container-2">
+        <div class="create-account">
+            <div class="green-block">
+                <i class="uit uit-check-circle"></i>
+            </div>
+            <div class="white-block">
+                <h1>Great!</h1>
+                <p>Your account has been created successfully.</p>
+                <button class="start-btn"><span>Start Exploring <i class="fa-solid fa-arrow-right-long"></i></span></button>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/37ac7f3104.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
